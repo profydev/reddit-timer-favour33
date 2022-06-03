@@ -5,7 +5,8 @@
 /* eslint-disable quotes */
 import React from "react";
 import { render } from "@testing-library/react";
-import App from "App";
+import App from "./App.js";
+// import App from "./App.test.js";
 
 test("renders App", () => {
   // render(<App />);
