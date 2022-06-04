@@ -10,6 +10,10 @@ import Home from "./Home/Home";
 function App() {
   return (
     <>
+      {/* <Router>
+        <Route path="/" element={<Home />} />
+        <Route path="search" element={<Search />} />
+      </Router> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="search" element={<Search />} />
